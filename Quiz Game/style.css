@@ -1,4 +1,4 @@
-/* basic reset  */
+/* Basic Reset */
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #f5efe6;
+  background: #f5efe6;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,25 +19,25 @@ body {
 .container {
   background-color: white;
   border-radius: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 600px;
   overflow: hidden;
   position: relative;
 }
 
+/* SCREENS */
 .screen {
   display: none;
   padding: 2rem;
   text-align: center;
-
 }
 
 .screen.active {
   display: block;
 }
 
-/* start screen  */
+/* START SCREEN */
 
 #start-screen h1 {
   color: #e86a33;
@@ -52,7 +52,7 @@ body {
 }
 
 .quiz-header {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 #question-text {
@@ -66,11 +66,10 @@ body {
   display: flex;
   justify-content: space-between;
   color: #666;
-  font-size: 1rem;
   margin-bottom: 10px;
 }
 
-.answer-container {
+.answers-container {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -80,7 +79,7 @@ body {
 .answer-btn {
   background-color: #f8f0e5;
   color: #333;
-  border: 2px solid #eabdc8;
+  border: 2px solid #eadbc8;
   border-radius: 10px;
   padding: 1rem;
   cursor: pointer;
@@ -89,14 +88,13 @@ body {
 }
 
 .answer-btn:hover {
-  background-color: #eabdc8;
+  background-color: #eadbc8;
   border-color: #dac0ae;
-
 }
 
 .answer-btn.correct {
   background-color: #e6fff0;
-  border-color: #a3f064;
+  border-color: #a3f0c4;
   color: #28a745;
 }
 
@@ -112,19 +110,18 @@ body {
   border-radius: 5px;
   overflow: hidden;
   margin-top: 20px;
-
 }
 
 .progress {
-  height: 10%;
+  height: 100%;
   background-color: #e86a33;
   width: 0%;
   transition: width 0.3s ease;
 }
 
-/* result screen  */
+/* RESULT SCREEN */
 
-.result-screen h1 {
+#result-screen h1 {
   color: #e86a33;
   margin-bottom: 30px;
 }
@@ -139,10 +136,10 @@ body {
 .result-info p {
   font-size: 1.2rem;
   color: #333;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-.result-message {
+#result-message {
   font-size: 1.5rem;
   font-weight: 600;
   color: #e86a33;
@@ -163,8 +160,7 @@ button:hover {
   background-color: #d45b28;
 }
 
-/* responsive design */
-
+/* RESPONSIVE DESIGN */
 @media (max-width: 500px) {
   /* when we hit 500px and below, implement the styles below */
 
