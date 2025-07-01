@@ -1,0 +1,15 @@
+h1 {
+  border: 2px dotted purple;
+  width: 50%;
+  padding: .5em;
+}
+
+header {
+  width: 100%;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #000;
+  background-color: papayawhip;
+}
