@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #fff;
+  border-bottom: 2px solid #eee;
+  flex-wrap: wrap;
+  box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.1);
+
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.logo span {
+  font-weight: 600;
+}
+
+
+.menu,
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.menu a, .actions a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  padding: 5px 8px;
+  transition: 0.3s;
+  cursor:pointer;
+}
+
+.actions a {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+.actions a:last-child {
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 18px;
+  min-width: 120px;
+  z-index: 999;
+}
