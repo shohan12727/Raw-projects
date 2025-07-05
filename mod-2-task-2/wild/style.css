@@ -1,0 +1,37 @@
+body{
+  background-image: url('image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  /* width: 100vw; */
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: papayawhip;
+  padding: 20px;
+  border: 2px solid greenyellow;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+}
+.form label{
+  margin: 5px;
+  font-weight: bold;
+}
+
+.form form button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+

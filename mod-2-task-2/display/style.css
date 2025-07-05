@@ -1,0 +1,43 @@
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+  visibility: hidden;
+}
+
+h1{
+  display: none;
+
+}
+
+img{
+  display: block;
+  margin: 20px;
+}
+
+button{
+  display: inline;
+}
+
+
+button {
+  display: inline;
+}
+
+
+.box {
+  display: block;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.inline-element {
+  display: inline-block;
+  background-color: lightgreen;
+  padding: 5px;
+}
+
+
+.hidden {
+  display: none;
+}
