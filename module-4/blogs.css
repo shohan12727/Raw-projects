@@ -1,0 +1,16 @@
+nav li {
+  list-style: none;
+  display: inline;
+  margin-right: 15px;
+}
+
+nav li:hover {
+  background-color: aqua; 
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+footer p{
+  text-align: center;
+}
