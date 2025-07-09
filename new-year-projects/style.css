@@ -10,7 +10,7 @@ body {
   font-family: 'Merriweather', serif;
   max-width: 1270px;
   margin: o auto;
- 
+
 }
 
 /* Banner Section */
@@ -18,58 +18,119 @@ body {
   background-image: url("images/Banner\ Image.png");
   background-size: cover;
   background-position: center;
-  height: 80vh;  
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 20px;
-   margin: 50px 140px;
+  margin: 50px 140px;
 }
 
 /* Text Styling */
 .text_container {
-  text-align: center; 
+  text-align: center;
 }
 
 .text_container h3 {
-    color: white;
+  color: white;
   font-size: 1.5rem;
   font-weight: 300;
   margin-bottom: 10px;
 }
 
 .text_container h1 {
-    color: white;
+  color: white;
   font-size: 3.5rem;
   font-weight: 700;
   line-height: 1.2;
 }
 
 
-.text_container-2{
+.text_container-2 {
   text-align: center;
 }
-.text_container-2 h1{
-font-size: 88px;
-color: #FF0000;
+
+.text_container-2 h1 {
+  font-size: 88px;
+  color: #FF0000;
 }
-.text_container-2 p{
+
+.text_container-2 p {
   font-size: 2rem;
   color: #FF0000;
 }
-.text_container-2 h2{
-font-size: 48px;
-color: #070211;
-font-weight: bold;
+
+.text_container-2 h2 {
+  font-size: 48px;
+  color: #070211;
+  font-weight: bold;
 }
 
-.img_container{
+.img_container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 48px 400px;
 }
+
 .img_container img {
   height: 100%;
   width: 100%;
+}
+
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 90px; */
+  background-image: url("images/Vectorrr.png");
+  margin: 50px 140px;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  padding: 70px 126px;
+  /* position: relative; */
+}
+
+.hero-container h1 {
+  font-size: 64px;
+  color: white;
+}
+
+.hero-container p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.801);
+}
+
+.hero-container h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+.place_container {
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0.105) 0%, rgba(255, 0, 0, 0) 100%);
+  margin: 50px 140px;
+  padding: 100px 180px;
+  text-align: center;
+}
+.place_container h2 {
+ font-weight: bolder;
+ margin-top: 10px;
+ font-size: 32px;
+}
+
+.place_container span {
+  color: #FF0000;
+}
+.place_container button {
+  margin-top: 40px;
+  background-color: #FF0000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
 }
