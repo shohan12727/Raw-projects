@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Position</title>
+  <style>
+    .box{
+      /* border: 1px solid orange; */
+      width: 200px;
+    }
+    .swim-container{
+  position: relative;
+    }
+    .ring{
+    position: absolute;
+      top: 200px;
+      left: 0px;
+      z-index: 2;
+    }
+    .boy{
+      position: absolute;
+      top: 160px;
+      z-index: 3;
+    }
+    .water{
+      position: absolute;
+      top: 220px;
+        z-index: 1;
+    }
+  </style>
+</head>
+<body>
+  <h3>Css postion</h3>
+  <ul>
+    <li>Static</li>
+    <li>Relative</li>
+    <li>Abosulute</li>
+    <li>Fixed</li>
+    <li>Sticky</li>
+  </ul>
+  <h2>Hi i am shohan</h2>
+  <div class="swim-container">
+    <div class="box boy">
+      <img src="./Img/boy.svg" alt="">
+    </div>
+    <div class="box ring">
+      <img src="Img/ring.svg" alt="">
+    </div>
+    <div class="box water">
+   <img src="./Img/water.svg" alt="">
+    </div>
+  </div>
+
+</body>
+</html>
