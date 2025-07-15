@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task-5</title>
+  <style>
+    body{
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+    .container{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      padding: 20px;
+    }
+    .img_container img{
+        width: 100%;
+    }
+    @media screen and (max-width:576px) {
+      .container{
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+     <div class="img_container">
+      <img src="city1.png" alt="">
+     </div>
+     <div class="text-contianer">
+      <h1>Lorem ipsum dolor sit amet consectetur</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia quam harum architecto, quo totam odit laudantium fugiat libero qui sed deleniti veritatis corporis dicta dignissimos nihil adipisci odio magnam assumenda tempore. Inventore nisi deserunt, accusantium vel architecto ab dolorem quae?</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque tempore aperiam, saepe provident veniam dignissimos ipsam est nulla, odit ex adipisci dolores excepturi ea porro consequuntur earum, nihil dolorem nesciunt.</p>
+     </div>
+  </div>
+  <div class="container">
+     
+     <div class="text-contianer">
+      <h1>Lorem ipsum dolor sit amet consectetur</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia quam harum architecto, quo totam odit laudantium fugiat libero qui sed deleniti veritatis corporis dicta dignissimos nihil adipisci odio magnam assumenda tempore. Inventore nisi deserunt, accusantium vel architecto ab dolorem quae?</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque tempore aperiam, saepe provident veniam dignissimos ipsam est nulla, odit ex adipisci dolores excepturi ea porro consequuntur earum, nihil dolorem nesciunt.</p>
+     </div>
+     <div class="img_container">
+      <img src="city1.png" alt="">
+     </div>
+  </div>
+</body>
+</html>
