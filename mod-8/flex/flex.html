@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .container{
+      display: flex;
+      gap: 20px;
+    }
+    .box{
+      background-color: papayawhip;
+      border-radius: 10px;
+      padding: 10px;
+      
+    }
+    .container-2{
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+
+    }
+    .item{
+      width: 200px;
+      height: 100px;
+      background-color: tomato;
+      border-radius: 20px;
+      border: 2px solid black;
+    }
+    @media screen and (max-width:576px) {
+      .container{
+        flex-direction: column;
+      }
+      
+    }
+  </style>
+</head>
+<body>
+  <h1>Flex box</h1>
+  <div class="container">
+  <div class="box">
+    <h2>First Box</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum non natus, dicta iusto recusandae praesentium id eligendi facilis alias, reiciendis accusamus exercitationem velit at iure ipsa tenetur nesciunt, blanditiis neque. Laborum quaerat quidem numquam doloremque eos repellat voluptatum minima quam, repellendus optio aliquam dolorum eaque? Id vel sed impedit repellendus debitis, maiores quaerat eius sint dolorem magni, modi eveniet fuga explicabo. Eius ipsum quia accusamus reprehenderit atque distinctio dolorum quod voluptate hic tempora nisi eveniet amet quaerat iusto aliquam sint voluptas, harum, odio iure? Nostrum eos, consectetur cumque provident ducimus hic esse voluptatem vitae explicabo quae earum recusandae, laborum atque!</p>
+  </div>
+  <div class="box">
+    <h2>Second Box</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam assumenda, dolorum nostrum quis error iusto porro optio eveniet. Sint, quibusdam hic! Animi cupiditate voluptas numquam necessitatibus distinctio at quos recusandae. Laboriosam repellendus quisquam, vel explicabo odio magni quibusdam aliquid temporibus veniam harum placeat vero cum quidem est ut autem commodi accusantium, ab fugit dolor facilis? Repellat excepturi quo numquam nihil temporibus quidem veniam id fuga? Quisquam ut saepe, ipsa sit esse voluptatum at facilis inventore, amet rerum libero obcaecati! Aliquam aspernatur, vero voluptas numquam tenetur quibusdam omnis voluptatum error dicta nisi quisquam quidem facere reprehenderit eos porro accusamus adipisci at.</p>
+  </div>
+  </div>
+
+  <div class="container-2">
+    <div class="item">Item- 1</div>
+    <div class="item">Item- 2</div>
+    <div class="item">Item- 3</div>
+    <div class="item">Item- 4</div>
+    <div class="item">Item- 5</div>
+    <div class="item">Item- 6</div>
+    <div class="item">Item- 7</div>
+    <div class="item">Item- 8</div>
+    <div class="item">Item- 9</div>
+    <div class="item">Item- 10</div>
+  </div>
+
+</body>
+</html>
