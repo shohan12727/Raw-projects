@@ -199,25 +199,41 @@
     <p class="text-[#707070] text-center text-2xl mt-5">There are many variations of passages of Lorem Ipsum available,
       but the majority have suffered alteration in some form, by injected humour.</p>
 
-    <div class="contact_container  flex">
-      <div class="gird_er-div grid lg:gird-cols-2 gird-cols-1">
-        <div class="contact p-14 flex justify-center items-center flex-col border border-2">
-       
-            <img src="./images/location.png" alt="">
-            <h3 class="font-bold text-2xl">Address</h3>
+    <div class="contact_container flex lg:flex-row flex-col">
+      <div class="grid lg:grid-cols-2 sm:grid-cols-1 lg:w-1/2">
+        <div class="contact p-14 flex justify-center items-center flex-col">
+          <img src="./images/location.png" alt="">
+          <h3 class="font-bold text-2xl">Address</h3>
+          <p>A108 Adam Street,<br>
+            New York, NY 535022</p>
+        </div>
+        <div class="contact p-14 flex justify-center items-center flex-col">
+          <img src="./images/call.png" alt="">
+          <h3 class="font-bold text-2xl">Call Us</h3>
+          <p>+88 01750 00 00 00 <br>
+            +88 01750 00 00 00</p>
+        </div>
 
-            <p>A108 Adam Street,<br>
-              New York, NY 535022</p>
-        
+        <div class="contact p-14 flex justify-center items-center flex-col">
+          <img src="./images/email.png" alt="">
+          <h3 class="font-bold text-2xl">Email Us</h3>
+          <p>info@gmail.com <br>
+            info@gmail.com</p>
+        </div>
+        <div class="contact p-14 flex justify-center items-center flex-col">
+          <img src="./images/time.png" alt="">
+          <h3 class="font-bold text-2xl">Working Hours</h3>
+          <p>Mon-Fri: 9AM to 5PM <br>
+            Sunday: 9AM to 1 PM</p>
         </div>
       </div>
 
-      <div class="form flex flex-col">
-        <input type="text" name="" id="">
-        <input type="email" name="" id="">
-        <input type="text" name="" id="">
-        <textarea name="" id=""></textarea>
-        <button>Send Message</button>
+      <div class="form flex flex-col w-1/2 items-center justify-center">
+        <input class="py-4 px-8 bg-gray-300 rounded-2xl" type="text" name="" id="" placeholder="Your Name">
+        <input class="py-4 px-8 mt-5 mb-5 bg-gray-300 rounded-2xl" type="email" name="" id="" placeholder="Your Email">
+        <input class="py-4 px-8  mb-5 bg-gray-300 rounded-2xl" type="text" name="" id="" placeholder="Subject">
+        <input class="py-4 px-8  mb-5 bg-gray-300 rounded-2xl" type="text" placeholder="Your Message">
+        <button class="font-semibold text-white bg-[#B68C5A] px-6 py-4 rounded-2xl ">Send Message</button>
       </div>
     </div>
 
